@@ -1,0 +1,7 @@
+---
+applications:
+- name: demoapp-go
+  memory: 512M
+  command: go-online
+  env:
+    GOPACKAGENAME: go-online
